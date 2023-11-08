@@ -4,7 +4,7 @@
 
 ![Address Search App Screenshot](/src/assets/addressSearch.png)
 
-This repository contains the full, finished project code. If you're interested in building this app from scratch, I recommend checking out my [tutorial video](https://youtu.be/l6-et1iNWMk) for step-by-step instructions and insights into the development process.
+This repository contains the full, finished project code. If you're interested in building this app from scratch, I recommend checking out my [tutorial video](https://youtu.be/sxH5Qpd06uY) for step-by-step instructions and insights into the development process.
 
 ## Overview 📜
 

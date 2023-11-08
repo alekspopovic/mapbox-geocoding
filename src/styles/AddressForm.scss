@@ -1,0 +1,49 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  margin-right: 3em;
+
+  label {
+    margin-bottom: 4px;
+    width: 100%;
+    text-align: left;
+  }
+
+  input {
+    width: 250px;
+    padding: 0.75em;
+    margin-bottom: 0.5em;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .buttons {
+    display: flex;
+    margin-top: 1em;
+
+    button {
+      padding: 1em 2em;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: "Poppins", sans-serif;
+      background-color: rgb(0, 194, 120);
+
+      &.confirm-button {
+        margin-right: 1em;
+      }
+
+      &.reset-button {
+        background-color: rgb(255, 65, 43);
+
+        &.disabled {
+          background-color: #ccc;
+          cursor: not-allowed;
+        }
+      }
+    }
+  }
+}
